@@ -1,0 +1,16 @@
+{
+  "name": "hbl-uat-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "alfalah": "npx cypress run --spec cypress/e2e/alfalah.cy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "cypress-mochawesome-reporter": "^3.5.1"
+  }
+}
